@@ -1,15 +1,13 @@
 @use 'sass:math';
-@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 body {
-  font-family: "Limelight", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Sofia Sans", sans-serif;
 }
 
 .banner{
   height: 100vh;
+  font-family: "Limelight", sans-serif;
   transition: all 150ms ease-out;
   background: linear-gradient(170deg, #ffabab, #ffcc96, purple, orangered);
   background-size: 100vw 300vh;
@@ -56,5 +54,26 @@ span {
   64%,66%,
   96%,98%,100% {
     color: hsl(65, 100, 80);
+  }
+}
+
+.content{
+  background: hsl(270, 100, 50);
+  border-radius: 20px;
+  padding: 2rem;
+  display: grid;
+  margin: 2rem;
+
+  &-text{
+    color: hsl(65, 100, 100);
+    text-align: center;
+  }
+
+  &-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+    justify-self: center;
   }
 }
