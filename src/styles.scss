@@ -6,12 +6,15 @@ body {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
   font-style: normal;
-  min-height: 100vh;
+}
+
+.banner{
+  height: 100vh;
+  transition: all 150ms ease-out;
+  background: linear-gradient(170deg, #ffabab, #ffcc96, purple, orangered);
+  background-size: 100vw 300vh;
   display: grid;
   place-content: center;
-  transition: all 150ms ease-out;
-  background: linear-gradient(170deg, white, steelblue, purple, orangered);
-  background-size: 100vw 300vh;
 
   &:hover {
     background-position: bottom;
@@ -25,15 +28,16 @@ body {
         text-shadow: 0 0 20px;
         animation: tilt 3s linear infinite;
         text-shadow:
-          0 0 20px;
+                0 0 20px;
       }
     }
   }
 }
 
 h1 {
-  font-size: 8rem;
-  color: hsl(250, 100, 60);
+  font-size: 6rem;
+  margin: 0;
+  color: hsl(250, 100, 25);
   transition: all 150ms ease-out;
 }
 
