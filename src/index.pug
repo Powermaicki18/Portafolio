@@ -7,6 +7,7 @@ html(lang="en")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css")
     link(rel="stylesheet" href="styles.scss")
     link(rel="icon" href="https://cdn-icons-png.flaticon.com/512/3944/3944211.png")
+
   body
     section.banner
       h1 Hola, soy<br> <span>M</span>iguel<br><span>A</span>ngel<br><span>N</span>ieto<br><span>Gó</span>mez
@@ -16,7 +17,11 @@ html(lang="en")
       img(src="https://i.pinimg.com/originals/af/5b/6f/af5b6f2c053131a9fe9fef0bf64d4a7a.gif", alt="Puto el que lo lea").content-image
 
     section.info-manguito
-      h1.info-manguito.title Sobre mí :D
-      p.info-manguito.text Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam asperiores assumenda autem blanditiis eligendi error et eveniet ex facilis fugit magnam mollitia nesciunt nostrum odio, provident qui, quo unde voluptate. Animi deleniti doloremque, ducimus ex expedita inventore iste maiores obcaecati, odio, perspiciatis praesentium quisquam soluta veniam? Nihil, sequi?
-      p.info-manguito-text2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eveniet in perspiciatis provident, quas quidem sint sunt suscipit tempore unde.
-      img(src="https://avatars.githubusercontent.com/u/99774629?v=4", alt="Manguito Feliz :D").info-manguito-image
+      section.info-manguito-image
+        img(src="https://avatars.githubusercontent.com/u/99774629?v=4", alt="Manguito Feliz :D").info-manguito-image-photo
+      section
+        section.info-manguito-content
+          h1.info-manguito-content-title Sobre mí
+          p.info-manguito-content-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eveniet in perspiciatis provident, quas quidem sint sunt suscipit tempore unde.
+        section.info-manguito-description
+          p.info-manguito-description-moretext Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam asperiores assumenda autem blanditiis eligendi error et eveniet ex facilis fugit magnam mollitia nesciunt nostrum odio, provident qui, quo unde voluptate. Animi deleniti doloremque, ducimus ex expedita inventore iste maiores obcaecati, odio, perspiciatis praesentium quisquam soluta veniam? Nihil, sequi?
